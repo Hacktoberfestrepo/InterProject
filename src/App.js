@@ -5,18 +5,19 @@ import baneer1 from './image/baneer1.jpg';
 import baneer2 from './image/baneer2.jpg';
 import baneer3 from './image/baneer3.jpg';
 import baneer4 from './image/baneer4.jpg';
+import icon from './image/icon.png';
 function App() {
   return (
     <div>
-     <div className="banner">
-   <div className='spam'>  <img src={Bannerimage}  className="Bannerimage"alt="Logo"/></div>
-   <div className='spam'> 
-    <div className='TextStyle'> Ace Our Single Shot Challenge !</div>
+  <div className="banner">
+   <div >  <img src={Bannerimage}  className="Bannerimage"alt="Logo"/></div>
+   <div > 
+    <div className='TextStyle'> Ace Our Single Shot Challenge !<img src={icon} className="bannericon" alt="Logo"/></div>
    <div className='TextStyle2'>Jumpstart Your Career with Our Free Assessment Test: Prove Your Skills and Secure an Internship Today!</div>
    <button className='btn'>Take  A Free Assessment</button>
+   <div ><img src={Bannerimager}  className="Bannerimager"/> </div>
    </div>
-    <img src={Bannerimager}  className="Bannerimager"/> 
-    </div>
+    </div> 
       <div className='opt'>
      <div className='SecText'>See where our students are interning</div> 
       <div className='Secbanner'>
@@ -26,7 +27,7 @@ function App() {
       <img src={baneer4}  className="baneer4"alt="Logo"/>
       </div>
       </div>
-      <div className='leftbox'>
+     <div className='leftbox'>
         <div className='textcont'> Content:</div>
         <div className='subcont'>12 lessons• 2hr 3min • </div>
         <div className='dispframe'>
@@ -78,7 +79,7 @@ function App() {
         </div>
           <div className='leftbtn'>View All</div>
       </div>
-      <div className='rightwrap'>
+       <div className='rightwrap'>
         <div className='rightwrapText'>career opportunities :</div>
         <div className='rightwraplist'>
           <ul>
@@ -88,7 +89,7 @@ function App() {
           </ul>
         </div>
       </div>
-      <div className='rightwrap1'>
+       <div className='rightwrap1'>
       <div className='rightwrapText'>Skills You Will Learn :</div>
         <div className='rightwraplist1'>
           <ul>
@@ -98,22 +99,23 @@ function App() {
             <li>  SEO: Understanding search engine optimization (SEO)</li>
           </ul>
         </div>
-      </div>
-      <div className='rightwrap2'>
+      </div> 
+       <div className='rightwrap2'>
       <div className='rightwrapText'>Course Includes :</div>
         <div className='rightwraplist'>
           <ul>
        <li>  Life time access</li>
             <li>  Certificate of completion</li>
            </ul>
-        </div>  
-      </div>
-      
-      <button className='botbtn'>Buy Now</button>
+        </div>   
+      </div> 
+       <button className='botbtn'>Buy Now</button>
       <div className='bottext'>₹1000</div>
       <div className='bottext1'>₹2000 50% offf</div>
-      </div>
+      </div> 
   );
 }
 
 export default App;
+
+
